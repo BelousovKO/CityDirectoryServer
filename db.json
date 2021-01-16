@@ -1,0 +1,46 @@
+{
+  "comments": [
+    {
+      "id": "hS0vWUz0",
+      "text": "Comment #1 CHANGED TEXT DESCRIPTION USERiD",
+      "description": "Comment created from PostMan AND CHANGED",
+      "userId": "RD3lHmNV"
+    },
+    {
+      "id": "2YDeUNTI",
+      "text": "Comment #2",
+      "description": "Comment created from PostMan 2",
+      "userId": "RD1lHmNV"
+    },
+    {
+      "id": "RD0lHmNV",
+      "text": "Comment #3",
+      "description": "Comment created from PostMan 3",
+      "userId": "RD1lHmNV"
+    },
+    {
+      "id": "PzTXYKoLz",
+      "text": "Comment #4",
+      "description": "Comment created from PostMan 4",
+      "userId": "RD1lHmNV"
+    },
+    {
+      "id": "a9CxYbPMv",
+      "text": "Comment #5",
+      "description": "Comment created from PostMan 5",
+      "userId": "RD1lHmNV"
+    }
+  ],
+  "users": [
+    {
+      "id": "RD1lHmNV",
+      "userName": "admin",
+      "password": "1234"
+    },
+    {
+      "id": "RD3lHmNV",
+      "userName": "Name",
+      "password": "0000"
+    }
+  ]
+}
