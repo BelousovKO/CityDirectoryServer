@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const usersRotues = require('./routes/users');
-const commentsRotues = require('./routes/comments');
+const usersRoutes = require('./routes/users');
+const commentsRoutes = require('./routes/comments');
 
 app.use(bodyParser.json()); // application/json
 
@@ -15,13 +15,16 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/users', usersRotues);
-app.use('/comments', commentsRotues);
+app.use('/users', usersRoutes);
+app.use('/comments', commentsRoutes);
 
 // Error handling
 app.use((err, req, res, next) => {
   const { message } = err;
-  res.json({ status: 'ERROR', message });
+  res.json({
+    status: 'ERROR',
+    message
+  });
 });
 
 app.listen(8080);

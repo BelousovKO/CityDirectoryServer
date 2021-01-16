@@ -32,10 +32,10 @@ const createUser = (req, res, next) => {
     type: 'object',
     properties: {
       userName: { type: 'string' },
-      password: { type: 'string' }
+      password: { type: 'string' },
     },
     required: ['userName', 'password'],
-    additionalProperties: false
+    additionalProperties: false,
   };
 
   const validationResult = validate(req.body, userSchema);
@@ -47,7 +47,7 @@ const createUser = (req, res, next) => {
   const user = {
     id: shortid.generate(),
     userName,
-    password
+    password,
   };
 
   try {
@@ -60,7 +60,7 @@ const createUser = (req, res, next) => {
 
   res.json({
     status: 'OK',
-    data: user
+    data: user,
   });
 };
 
@@ -76,5 +76,5 @@ module.exports = {
   getUsers,
   getUser,
   createUser,
-  deleteUser
+  deleteUser,
 };

@@ -2,6 +2,14 @@
   "extends": ["airbnb-base"],
   "rules": {
     "comma-dangle": "off",
-    "no-unused-vars": ["error", { "args": "none" }]
+    "no-console": "off",
+    "no-unused-vars": [
+      "off",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ]
   }
 }

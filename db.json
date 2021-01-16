@@ -23,12 +23,6 @@
       "text": "Comment #4",
       "description": "Comment created from PostMan 4",
       "userId": "RD1lHmNV"
-    },
-    {
-      "id": "a9CxYbPMv",
-      "text": "Comment #5",
-      "description": "Comment created from PostMan 5",
-      "userId": "RD1lHmNV"
     }
   ],
   "users": [
@@ -41,6 +35,11 @@
       "id": "RD3lHmNV",
       "userName": "Name",
       "password": "0000"
+    },
+    {
+      "id": "Xx4kXyIVX",
+      "userName": "Konstantin",
+      "password": "1111"
     }
   ]
 }

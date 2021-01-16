@@ -33,10 +33,9 @@ const createComment = (req, res, next) => {
     properties: {
       text: { type: 'string' },
       description: { type: 'string' },
-      userId: { type: 'string' }
     },
-    required: ['text', 'description', 'userId'],
-    additionalProperties: false
+    required: ['text', 'description'],
+    additionalProperties: false,
   };
 
   const validationResult = validate(req.body, commentSchema);
@@ -49,7 +48,7 @@ const createComment = (req, res, next) => {
     id: shortid.generate(),
     text,
     description,
-    userId
+    userId,
   };
 
   try {
@@ -62,7 +61,7 @@ const createComment = (req, res, next) => {
 
   res.json({
     status: 'OK',
-    data: comment
+    data: comment,
   });
 };
 
@@ -93,5 +92,5 @@ module.exports = {
   getComment,
   createComment,
   editComment,
-  deleteComment
+  deleteComment,
 };
