@@ -1,16 +1,11 @@
 {
   "comments": [
     {
-      "id": "hS0vWUz0",
+      "id": "2YDeUNTI",
       "text": "Comment #1 CHANGED TEXT DESCRIPTION USERiD",
       "description": "Comment created from PostMan AND CHANGED",
-      "userId": "RD3lHmNV"
-    },
-    {
-      "id": "2YDeUNTI",
-      "text": "Comment #2",
-      "description": "Comment created from PostMan 2",
-      "userId": "RD1lHmNV"
+      "userId": "RD3lHmNV",
+      "city": "Omsk"
     },
     {
       "id": "RD0lHmNV",
@@ -23,6 +18,13 @@
       "text": "Comment #4",
       "description": "Comment created from PostMan 4",
       "userId": "RD1lHmNV"
+    },
+    {
+      "id": "2ajSJkjLZ",
+      "text": "Comment #7 CHANGED TEXT DESCRIPTION USERiD",
+      "description": "Comment created from PostMan AND CHANGED",
+      "userId": "RD3lHmNV",
+      "city": "Moscow"
     }
   ],
   "users": [
@@ -38,6 +40,11 @@
     },
     {
       "id": "Xx4kXyIVX",
+      "userName": "Konstantin",
+      "password": "1111"
+    },
+    {
+      "id": "K1jewKWm8",
       "userName": "Konstantin",
       "password": "1111"
     }

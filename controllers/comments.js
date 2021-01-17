@@ -33,8 +33,10 @@ const createComment = (req, res, next) => {
     properties: {
       text: { type: 'string' },
       description: { type: 'string' },
+      userId: { type: 'string' },
+      city: { type: 'string' },
     },
-    required: ['text', 'description'],
+    required: ['text', 'description', 'userId', 'city'],
     additionalProperties: false,
   };
 
@@ -43,12 +45,15 @@ const createComment = (req, res, next) => {
     throw new Error('INVALID_JSON_OR_API_FORMAT');
   }
 
-  const { text, description, userId } = req.body;
+  const {
+    text, description, userId, city,
+  } = req.body;
   const comment = {
     id: shortid.generate(),
     text,
     description,
     userId,
+    city,
   };
 
   try {
