@@ -27,6 +27,36 @@ const getComment = (req, res, next) => {
   res.json({ status: 'OK', data: comment });
 };
 
+const getCommentsByCity = (req, res, next) => {
+  const { city } = req.params;
+
+  const comment = db
+    .get('comments')
+    .filter({ city })
+    .value();
+
+  if (!comment) {
+    throw new Error('COMMENT_NOT_FOUND');
+  }
+
+  res.json({ status: 'OK', data: comment });
+};
+
+const getCommentsByUserId = (req, res, next) => {
+  const { userId } = req.params;
+
+  const comment = db
+    .get('comments')
+    .filter({ userId })
+    .value();
+
+  if (!comment) {
+    throw new Error('COMMENT_NOT_FOUND');
+  }
+
+  res.json({ status: 'OK', data: comment });
+};
+
 const createComment = (req, res, next) => {
   const commentSchema = {
     type: 'object',
@@ -98,4 +128,6 @@ module.exports = {
   createComment,
   editComment,
   deleteComment,
+  getCommentsByCity,
+  getCommentsByUserId,
 };

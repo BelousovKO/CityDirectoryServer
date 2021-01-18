@@ -12,12 +12,27 @@ const getUsers = (req, res, next) => {
   res.json({ status: 'OK', data: users });
 };
 
-const getUser = (req, res, next) => {
+const getUserById = (req, res, next) => {
   const { id } = req.params;
 
   const user = db
     .get('users')
     .find({ id })
+    .value();
+
+  if (!user) {
+    throw new Error('USER_NOT_FOUND');
+  }
+
+  res.json({ status: 'OK', data: user });
+};
+
+const getUserByUserName = (req, res, next) => {
+  const { userName } = req.params;
+
+  const user = db
+    .get('users')
+    .find({ userName })
     .value();
 
   if (!user) {
@@ -74,7 +89,8 @@ const deleteUser = (req, res, next) => {
 
 module.exports = {
   getUsers,
-  getUser,
+  getUserById,
+  getUserByUserName,
   createUser,
   deleteUser,
 };

@@ -11,13 +11,15 @@
       "id": "RD0lHmNV",
       "text": "Comment #3",
       "description": "Comment created from PostMan 3",
-      "userId": "RD1lHmNV"
+      "userId": "RD1lHmNV",
+      "city": "Moscow"
     },
     {
       "id": "PzTXYKoLz",
       "text": "Comment #4",
       "description": "Comment created from PostMan 4",
-      "userId": "RD1lHmNV"
+      "userId": "RD1lHmNV",
+      "city": "Moscow"
     },
     {
       "id": "2ajSJkjLZ",
@@ -25,6 +27,20 @@
       "description": "Comment created from PostMan AND CHANGED",
       "userId": "RD3lHmNV",
       "city": "Moscow"
+    },
+    {
+      "id": "oKMG2tp03",
+      "text": "Comment #5 CHANGED TEXT DESCRIPTION USERiD",
+      "description": "Comment created from PostMan AND CHANGED",
+      "userId": "RD3lHmNV",
+      "city": "Omsk"
+    },
+    {
+      "id": "C_U0LV-VT",
+      "text": "Comment #6 CHANGED TEXT DESCRIPTION USERiD",
+      "description": "Comment created from PostMan AND CHANGED",
+      "userId": "RD3lHmNV",
+      "city": "Omsk"
     }
   ],
   "users": [
@@ -40,11 +56,6 @@
     },
     {
       "id": "Xx4kXyIVX",
-      "userName": "Konstantin",
-      "password": "1111"
-    },
-    {
-      "id": "K1jewKWm8",
       "userName": "Konstantin",
       "password": "1111"
     }
