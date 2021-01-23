@@ -1,46 +1,28 @@
 {
   "comments": [
     {
-      "id": "2YDeUNTI",
-      "text": "Comment #1 CHANGED TEXT DESCRIPTION USERiD",
-      "description": "Comment created from PostMan AND CHANGED",
-      "userId": "RD3lHmNV",
-      "city": "Omsk"
-    },
-    {
-      "id": "RD0lHmNV",
-      "text": "Comment #3",
-      "description": "Comment created from PostMan 3",
-      "userId": "RD1lHmNV",
-      "city": "Moscow"
-    },
-    {
-      "id": "PzTXYKoLz",
+      "id": "oMi47JhQG",
+      "marked": false,
       "text": "Comment #4",
-      "description": "Comment created from PostMan 4",
-      "userId": "RD1lHmNV",
-      "city": "Moscow"
+      "userId": "1234",
+      "userName": "Konstantin",
+      "city": "Novosibirsk"
     },
     {
-      "id": "2ajSJkjLZ",
-      "text": "Comment #7 CHANGED TEXT DESCRIPTION USERiD",
-      "description": "Comment created from PostMan AND CHANGED",
-      "userId": "RD3lHmNV",
-      "city": "Moscow"
+      "id": "HKYGNdn4J",
+      "marked": false,
+      "text": "Comment #3",
+      "userId": "1234",
+      "userName": "Konstantin",
+      "city": "Novosibirsk"
     },
     {
-      "id": "oKMG2tp03",
-      "text": "Comment #5 CHANGED TEXT DESCRIPTION USERiD",
-      "description": "Comment created from PostMan AND CHANGED",
-      "userId": "RD3lHmNV",
-      "city": "Omsk"
-    },
-    {
-      "id": "C_U0LV-VT",
-      "text": "Comment #6 CHANGED TEXT DESCRIPTION USERiD",
-      "description": "Comment created from PostMan AND CHANGED",
-      "userId": "RD3lHmNV",
-      "city": "Omsk"
+      "id": "2GsHFXbv4",
+      "marked": false,
+      "text": " Comment #2",
+      "userId": "1234",
+      "userName": "Konstantin",
+      "city": "Novosibirsk"
     }
   ],
   "users": [
@@ -53,11 +35,6 @@
       "id": "RD3lHmNV",
       "userName": "Name",
       "password": "0000"
-    },
-    {
-      "id": "Xx4kXyIVX",
-      "userName": "Konstantin",
-      "password": "1111"
     }
   ]
 }

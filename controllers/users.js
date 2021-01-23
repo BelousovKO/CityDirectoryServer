@@ -12,7 +12,7 @@ const getUsers = (req, res, next) => {
   res.json({ status: 'OK', data: users });
 };
 
-const getUserById = (req, res, next) => {
+const getUser = (req, res, next) => {
   const { id } = req.params;
 
   const user = db
@@ -27,30 +27,15 @@ const getUserById = (req, res, next) => {
   res.json({ status: 'OK', data: user });
 };
 
-const getUserByUserName = (req, res, next) => {
-  const { userName } = req.params;
-
-  const user = db
-    .get('users')
-    .find({ userName })
-    .value();
-
-  if (!user) {
-    throw new Error('USER_NOT_FOUND');
-  }
-
-  res.json({ status: 'OK', data: user });
-};
-
 const createUser = (req, res, next) => {
   const userSchema = {
     type: 'object',
     properties: {
       userName: { type: 'string' },
-      password: { type: 'string' },
+      password: { type: 'string' }
     },
     required: ['userName', 'password'],
-    additionalProperties: false,
+    additionalProperties: false
   };
 
   const validationResult = validate(req.body, userSchema);
@@ -62,7 +47,7 @@ const createUser = (req, res, next) => {
   const user = {
     id: shortid.generate(),
     userName,
-    password,
+    password
   };
 
   try {
@@ -75,7 +60,7 @@ const createUser = (req, res, next) => {
 
   res.json({
     status: 'OK',
-    data: user,
+    data: user
   });
 };
 
@@ -89,8 +74,7 @@ const deleteUser = (req, res, next) => {
 
 module.exports = {
   getUsers,
-  getUserById,
-  getUserByUserName,
+  getUser,
   createUser,
-  deleteUser,
+  deleteUser
 };

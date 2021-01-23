@@ -9,7 +9,10 @@ const getComments = (req, res, next) => {
   } catch (error) {
     throw new Error(error);
   }
-  res.json({ status: 'OK', data: comments });
+  res.json({
+    status: 'OK',
+    data: comments
+  });
 };
 
 const getComment = (req, res, next) => {
@@ -24,37 +27,10 @@ const getComment = (req, res, next) => {
     throw new Error('COMMENT_NOT_FOUND');
   }
 
-  res.json({ status: 'OK', data: comment });
-};
-
-const getCommentsByCity = (req, res, next) => {
-  const { city } = req.params;
-
-  const comment = db
-    .get('comments')
-    .filter({ city })
-    .value();
-
-  if (!comment) {
-    throw new Error('COMMENT_NOT_FOUND');
-  }
-
-  res.json({ status: 'OK', data: comment });
-};
-
-const getCommentsByUserId = (req, res, next) => {
-  const { userId } = req.params;
-
-  const comment = db
-    .get('comments')
-    .filter({ userId })
-    .value();
-
-  if (!comment) {
-    throw new Error('COMMENT_NOT_FOUND');
-  }
-
-  res.json({ status: 'OK', data: comment });
+  res.json({
+    status: 'OK',
+    data: comment
+  });
 };
 
 const createComment = (req, res, next) => {
@@ -62,12 +38,12 @@ const createComment = (req, res, next) => {
     type: 'object',
     properties: {
       text: { type: 'string' },
-      description: { type: 'string' },
       userId: { type: 'string' },
+      userName: { type: 'string' },
       city: { type: 'string' },
     },
-    required: ['text', 'description', 'userId', 'city'],
-    additionalProperties: false,
+    required: ['text', 'userId', 'userName', 'city'],
+    additionalProperties: false
   };
 
   const validationResult = validate(req.body, commentSchema);
@@ -76,19 +52,20 @@ const createComment = (req, res, next) => {
   }
 
   const {
-    text, description, userId, city,
+    text, userId, userName, city,
   } = req.body;
   const comment = {
     id: shortid.generate(),
+    marked: false,
     text,
-    description,
     userId,
+    userName,
     city,
   };
 
   try {
     db.get('comments')
-      .push(comment)
+      .unshift(comment)
       .write();
   } catch (error) {
     throw new Error(error);
@@ -96,7 +73,7 @@ const createComment = (req, res, next) => {
 
   res.json({
     status: 'OK',
-    data: comment,
+    data: comment
   });
 };
 
@@ -111,7 +88,10 @@ const editComment = (req, res, next) => {
 
   db.write();
 
-  res.json({ status: 'OK', data: editedComment });
+  res.json({
+    status: 'OK',
+    data: editedComment
+  });
 };
 
 const deleteComment = (req, res, next) => {
@@ -119,7 +99,12 @@ const deleteComment = (req, res, next) => {
     .remove({ id: req.params.id })
     .write();
 
-  res.json({ status: 'OK' });
+  const comments = db.get('comments');
+
+  res.json({
+    status: 'OK',
+    data: comments
+  });
 };
 
 module.exports = {
@@ -127,7 +112,5 @@ module.exports = {
   getComment,
   createComment,
   editComment,
-  deleteComment,
-  getCommentsByCity,
-  getCommentsByUserId,
+  deleteComment
 };

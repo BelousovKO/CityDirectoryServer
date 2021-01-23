@@ -13,12 +13,6 @@ router.get('/:id', commentsController.getComment);
 // POST /comments
 router.post('/', commentsController.createComment);
 
-// POST /comments/byCity/:city
-router.get('/byCity/:city', commentsController.getCommentsByCity);
-
-// POST /comments/byUserId/:UserId
-router.get('/byUserId/:userId', commentsController.getCommentsByUserId);
-
 // PATCH /comments/:id
 router.patch('/:id', commentsController.editComment);
 
