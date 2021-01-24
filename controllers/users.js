@@ -13,11 +13,11 @@ const getUsers = (req, res, next) => {
 };
 
 const getUser = (req, res, next) => {
-  const { id } = req.params;
+  const { userName } = req.params;
 
   const user = db
     .get('users')
-    .find({ id })
+    .find({ userName })
     .value();
 
   if (!user) {

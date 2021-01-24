@@ -80,17 +80,18 @@ const createComment = (req, res, next) => {
 const editComment = (req, res, next) => {
   const { id } = req.params;
 
-  const editedComment = db
-    .get('comments')
+  db.get('comments')
     .find({ id })
     .assign(req.body)
     .value();
 
   db.write();
 
+  const comments = db.get('comments');
+
   res.json({
     status: 'OK',
-    data: editedComment
+    data: comments
   });
 };
 
