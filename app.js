@@ -5,6 +5,7 @@ const app = express();
 
 const usersRotues = require('./routes/users');
 const commentsRotues = require('./routes/comments');
+const cityRoutes = require('./routes/city');
 
 app.use(bodyParser.json()); // application/json
 
@@ -17,6 +18,7 @@ app.use((req, res, next) => {
 
 app.use('/users', usersRotues);
 app.use('/comments', commentsRotues);
+app.use('/city', cityRoutes);
 
 // Error handling
 app.use((err, req, res, next) => {
