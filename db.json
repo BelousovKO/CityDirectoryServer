@@ -6,7 +6,7 @@
       "text": "Comment #-1\n",
       "userId": "KD7IHWOFK",
       "userName": "Mihail",
-      "city": ""
+      "city": "Omsk"
     },
     {
       "id": "qQEJF0Kok",
@@ -66,6 +66,11 @@
       "id": "WfkCsRb83",
       "userName": "Dima",
       "password": "1111"
+    },
+    {
+      "id": "m6Fzishcf",
+      "userName": "Olga",
+      "password": "0000"
     }
   ]
 }

@@ -10,6 +10,9 @@ router.get('/', commentsController.getComments);
 // GET /comments/:id
 router.get('/:id', commentsController.getComment);
 
+// GET /comments/byCity/:city
+router.get('/byCity/:city', commentsController.getCommentsByCity);
+
 // POST /comments
 router.post('/', commentsController.createComment);
 
