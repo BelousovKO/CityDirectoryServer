@@ -11,10 +11,11 @@
     {
       "id": "qQEJF0Kok",
       "marked": false,
-      "text": "Novosibirsk Comment #0",
+      "text": " Novosibirsk Comment #0\n",
       "userId": "1234",
       "userName": "Konstantin",
-      "city": "Novosibirsk"
+      "city": "Novosibirsk",
+      "cityName": "Novosibirsk"
     },
     {
       "id": "8gkkxk3ER",
