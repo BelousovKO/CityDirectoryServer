@@ -67,7 +67,7 @@
   "city": [
     {
       "cityName": "Novosibirsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/5/50/NSK_Montage_2017.png",
+      "urlPhoto": "https://rospotrebnadzor-info.ru/wp-content/uploads/2018/09/rospotrebnadzor-novosibirsk-i-novosibirskaya-oblast-1024x632.png",
       "urlMap": "https://i.ibb.co/yWnL2gt/Novosibirsk.jpg",
       "foundationDate": 1893,
       "timezone": "UTC+7:00",
@@ -76,7 +76,7 @@
     },
     {
       "cityName": "Omsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Omsk_Collage_2016.png",
+      "urlPhoto": "https://sdelanounas.ru/i/a/w/1/aW1nLWZvdGtpLnlhbmRleC5ydS9nZXQvMjY0MzkvMzAzNDgxNTIuMWY0LzBfOGQ3ODhfZGRkZDdhZGZfb3JpZz9fX2lkPTc5NTg5.jpg",
       "urlMap": "https://i.ibb.co/9qmyQTk/Omsk.jpg",
       "foundationDate": 1716,
       "timezone": "UTC+6:00",
@@ -85,7 +85,7 @@
     },
     {
       "cityName": "Tomsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/95/Collages_Tomsk.jpg",
+      "urlPhoto": "https://4s-info.ru/wp-content/uploads/sites/2/2019/10/04_tomsk.jpg",
       "urlMap": "https://i.ibb.co/HHZZLxV/Tomsk.jpg",
       "foundationDate": 1604,
       "timezone": "UTC+7:00",
@@ -112,7 +112,7 @@
     },
     {
       "cityName": "Krasnoyarsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/0/08/Krs_railstation.jpg",
+      "urlPhoto": "https://www.admkrsk.ru/assets/%D0%9C%D0%B5%D0%B4%D0%B8%D0%B0%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/%D0%96%D0%94%20%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB.jpg",
       "urlMap": "https://i.ibb.co/60hFGvK/Krasnoyarsk.jpg",
       "foundationDate": 1628,
       "timezone": "UTC+7:00",
@@ -121,7 +121,7 @@
     },
     {
       "cityName": "Irkutsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Irkutsk_Collage.png",
+      "urlPhoto": "https://storage.weacom.ru/c/700/412/5190_57/JNQu43ZXsEE.jpg",
       "urlMap": "https://i.ibb.co/zQWs89g/Irkutsk.jpg",
       "foundationDate": 1661,
       "timezone": "UTC+8:00",
@@ -130,7 +130,7 @@
     },
     {
       "cityName": "Barnaul",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Barnaul_Skyline_2007.jpg",
+      "urlPhoto": "https://opt-492372.ssl.1c-bitrix-cdn.ru/upload/iblock/3e0/3e0acbe3d3a7e6e401203584ea0fdd72.jpg?1575559485144280",
       "urlMap": "https://i.ibb.co/gD7gL3J/Barnaul.jpg",
       "foundationDate": 1730,
       "timezone": "UTC+7:00",
@@ -139,7 +139,7 @@
     },
     {
       "cityName": "Ekaterinburg",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/39/E-burg_asv2019-05_img46_view_from_VysotSky.jpg",
+      "urlPhoto": "https://cdn2.tu-tu.ru/image/pagetree_node_data/1/3df4ce2216df449939201ac6ed4b3f75/",
       "urlMap": "https://i.ibb.co/qd9brGc/Ekaterinburg.jpg",
       "foundationDate": 1723,
       "timezone": "UTC+5:00",
@@ -148,7 +148,7 @@
     },
     {
       "cityName": "Ufa",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ea/%D3%A8%D0%A4%D3%A8-6.jpg",
+      "urlPhoto": "https://lidiatur.ru/assets/img/vihodnoy/ufa/12712_12.jpg",
       "urlMap": "https://i.ibb.co/z8QDsdH/Ufa.jpg",
       "foundationDate": 1574,
       "timezone": "UTC+5:00",
@@ -157,7 +157,7 @@
     },
     {
       "cityName": "Samara",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/91/Samara_main.jpg",
+      "urlPhoto": "https://ic.pics.livejournal.com/zdorovs/16627846/1403098/1403098_original.jpg",
       "urlMap": "https://i.ibb.co/RhD9zGp/Samara.jpg",
       "foundationDate": 1586,
       "timezone": "UTC+4:00",
@@ -166,7 +166,7 @@
     },
     {
       "cityName": "Arkhangelsk",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Arkhangelsk_view_from_Vysotka.jpg",
+      "urlPhoto": "https://img.geliophoto.com/2020/14_2020.jpg",
       "urlMap": "https://i.ibb.co/J3TBzSN/Arkhangelsk.jpg",
       "foundationDate": 1583,
       "timezone": "UTC+3:00",
@@ -175,7 +175,7 @@
     },
     {
       "cityName": "Saint Petersburg",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Palace_Bridge_SPB_%28img2%29_Crop.jpg",
+      "urlPhoto": "https://gazeta.spb.ru/wp-content/uploads/2019/04/Screenshot_9-1.jpg",
       "urlMap": "https://i.ibb.co/CVBsQh5/Saint-Petersburg.jpg",
       "foundationDate": 1703,
       "timezone": "UTC+3:00",
@@ -184,7 +184,7 @@
     },
     {
       "cityName": "Moscow",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/0/01/Moscow_July_2011-16.jpg",
+      "urlPhoto": "https://www.ruspeach.com/upload/iblock/1dc/1dc5382c48345e5c89290dd7dd209463.jpg",
       "urlMap": "https://i.ibb.co/C7TPGWL/Moscow.jpg",
       "foundationDate": 1147,
       "timezone": "UTC+3:00",
@@ -193,7 +193,7 @@
     },
     {
       "cityName": "Tokyo",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Tokyo_Montage_2015.jpg",
+      "urlPhoto": "https://images.fineartamerica.com/images-medium-large-5/tokyo-tower-at-night-ngkaki.jpg",
       "urlMap": "https://i.ibb.co/DMfrw1q/Tokyo.jpg",
       "foundationDate": 1604,
       "timezone": "UTC+9:00",
@@ -202,7 +202,7 @@
     },
     {
       "cityName": "Delhi",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Delhi_Montage.jpg",
+      "urlPhoto": "https://i.pinimg.com/originals/91/e3/ed/91e3ed6265e62e19a5382b7156668711.jpg",
       "urlMap": "https://i.ibb.co/892VZwV/Delhi.jpg",
       "foundationDate": "500 до н.э.",
       "timezone": "UTC+5:30",
@@ -211,7 +211,7 @@
     },
     {
       "cityName": "Shanghai",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/de/Shanghai_montage.png",
+      "urlPhoto": "https://www.china-briefing.com/news/wp-content/uploads/2019/04/China-Briefing-Shanghai-Industry-Economics-and-Policy-1.jpg",
       "urlMap": "https://i.ibb.co/9nYw92J/Shanghai.jpg",
       "foundationDate": 751,
       "timezone": "UTC+8:00",
@@ -220,7 +220,7 @@
     },
     {
       "cityName": "São Paulo",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/49/Montagem_SP.png",
+      "urlPhoto": "https://www.votpusk.ru/country/ctimages/new/BR08.jpg",
       "urlMap": "https://i.ibb.co/NVN89fJ/Sao-Paulo.jpg",
       "foundationDate": 1554,
       "timezone": "UTC−3:00, летом UTC−2:00",
@@ -229,7 +229,7 @@
     },
     {
       "cityName": "Mexico City",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/1/15/Montaje.Ciudad_de_M%C3%A9xico.jpg",
+      "urlPhoto": "https://theplacement.ru//upload/FC4hJjCX62xNZsDueo4fODcGlE4d2m-large.jpg",
       "urlMap": "https://i.ibb.co/4KmCtty/Mexico.jpg",
       "foundationDate": 1325,
       "timezone": "UTC-6:00",
@@ -238,7 +238,7 @@
     },
     {
       "cityName": "Cairo",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cairo_Montage.png",
+      "urlPhoto": "https://cf.bstatic.com/images/hotel/max1024x768/215/215704674.jpg",
       "urlMap": "https://i.ibb.co/9wD1GPP/Cairo.jpg",
       "foundationDate": 969,
       "timezone": "UTC+2:00",
@@ -247,7 +247,7 @@
     },
     {
       "cityName": "Mumbai",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/0/07/MumbaiMontage.png",
+      "urlPhoto": "https://exporteram.com/wp-content/uploads/2020/02/Mumbai27.jpg",
       "urlMap": "https://i.ibb.co/xF5zTGG/Mumbai.jpg",
       "foundationDate": 1507,
       "timezone": "UTC+5:30",
@@ -265,7 +265,7 @@
     },
     {
       "cityName": "Dhaka",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Dhaka_Montage_2019.jpg",
+      "urlPhoto": "https://pressa.tv/uploads/posts/2017-06/1496501098_ch2.jpg",
       "urlMap": "https://i.ibb.co/K6zXmNN/Dhaka.jpg",
       "foundationDate": "VII век",
       "timezone": "UTC+6:00",
@@ -274,7 +274,7 @@
     },
     {
       "cityName": "New York",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/9d/NYC_Montage_2014_4_-_Jleon.jpg",
+      "urlPhoto": "https://www.lookandtravel.ru/wp-content/uploads/2015/05/4392506632-02fd634024-o.jpg",
       "urlMap": "https://i.ibb.co/DkkwxdF/New-York.jpg",
       "foundationDate": 1624,
       "timezone": "UTC−5:00, летом UTC−4:00",
@@ -283,7 +283,7 @@
     },
     {
       "cityName": "Buenos Aires",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Montaje_de_la_Ciudad_de_Buenos_Aires.png",
+      "urlPhoto": "https://www.tourprom.ru/site_media/images/upload/2019/11/28/newsphoto/buenos.jpg",
       "urlMap": "https://i.ibb.co/jMdLh66/Buenos-Aires.jpg",
       "foundationDate": 1536,
       "timezone": "UTC-3:00",
@@ -292,7 +292,7 @@
     },
     {
       "cityName": "Istanbul",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Istanbul_Montage_2016.png",
+      "urlPhoto": "https://uatraveller.com/wp-content/uploads/2018/10/im-istambul1-1140x641.jpg",
       "urlMap": "https://i.ibb.co/L6cJv28/Istanbul.jpg",
       "foundationDate": "667 до н.э.",
       "timezone": "UTC+3:00",
@@ -301,7 +301,7 @@
     },
     {
       "cityName": "Manila",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Manila_Infobox_Pic_Montage.jpg",
+      "urlPhoto": "https://ct.by/upload/resize_cache/iblock/c64/1170_658_2/11.jpg",
       "urlMap": "https://i.ibb.co/x5tRwKg/Manila.jpg",
       "foundationDate": 1574,
       "timezone": "UTC+8:00",
@@ -310,7 +310,7 @@
     },
     {
       "cityName": "Lagos",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Lagos_Island.jpg",
+      "urlPhoto": "https://sea-rus.com/userfiles/images/lagos_sea_rus.png",
       "urlMap": "https://i.ibb.co/c8qq1yJ/Lagos.jpg",
       "foundationDate": 1472,
       "timezone": "UTC+1:00",
@@ -319,7 +319,7 @@
     },
     {
       "cityName": "Rio de Janeiro",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/94/Montagem_RJ.jpg",
+      "urlPhoto": "https://posterix.com.ua/images/product_images/popup_images/kupit-fotooboi-flizelin-gorod-rio-de-zhanejro-951.jpg",
       "urlMap": "https://i.ibb.co/93Cgd8s/Rio-de-Janeiro.jpg",
       "foundationDate": 1565,
       "timezone": "UTC−3:00, летом UTC−2:00",
@@ -328,7 +328,7 @@
     },
     {
       "cityName": "London",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tower_Bridge_from_Shad_Thames.jpg",
+      "urlPhoto": "https://wiki-turizm.ru/uploads/countries/united-kingdom/Dostoprim-London/1.jpg",
       "urlMap": "https://i.ibb.co/12Vvp02/London.jpg",
       "foundationDate": 47,
       "timezone": "UTC±0:00, летом UTC+1:00",
@@ -337,7 +337,7 @@
     },
     {
       "cityName": "Bogotá",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/73/Centro-Internacional-Bogot%C3%A1.jpg",
+      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bogot%C3%A1_Colpatria_Night.jpg",
       "urlMap": "https://i.ibb.co/yfk2d35/Bogota.jpg",
       "foundationDate": 1538,
       "timezone": "UTC-5:00",
@@ -346,7 +346,7 @@
     },
     {
       "cityName": "Berlin",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/34/Berlin_Montage_2016.png",
+      "urlPhoto": "https://liveberlin.ru/wp-content/uploads/2020/05/by-Subodh-on-AdobeStock_cover-scaled.jpeg",
       "urlMap": "https://i.ibb.co/CtzwZ7q/Berlin.jpg",
       "foundationDate": 1237,
       "timezone": "UTC+1:00",
@@ -355,7 +355,7 @@
     },
     {
       "cityName": "Madrid",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e6/CollageMadrid.jpg",
+      "urlPhoto": "https://gotro.ru/wp/wp-content/uploads/2017/07/madrid-evening.jpg",
       "urlMap": "https://i.ibb.co/fQBbBmM/Madrid.jpg",
       "foundationDate": "X век",
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -364,7 +364,7 @@
     },
     {
       "cityName": "Kyiv",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/49/17-07-02-Maidan_Nezalezhnosti_RR74377-PANORAMA.jpg",
+      "urlPhoto": "https://relax.com.ua/wp-content/media/kiew/2017/12/ng-kiev-min.jpg",
       "urlMap": "https://i.ibb.co/YtNnvVP/Kiev.jpg",
       "foundationDate": "V—X век",
       "timezone": "UTC+2:00, летом UTC+3:00",
@@ -373,7 +373,7 @@
     },
     {
       "cityName": "Rome",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rome_Montage_2017.png",
+      "urlPhoto": "https://lh3.googleusercontent.com/proxy/deeD7rnFYx_sNTBTQc6qzG_3w4yMLsT0G7pS6fQL-n8IAAuiHSlTYwkTxLK1TcdwdoBO02C7oxiYQgvq6JgQSq6D6XdV9PJQeUtWzppSEADdJQLQVn2LEoRMiyjMs1EJa8IMedo2fit3SXE",
       "urlMap": "https://i.ibb.co/qBhGF5Q/Rome.jpg",
       "foundationDate": "753 до н.э.",
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -382,7 +382,7 @@
     },
     {
       "cityName": "Paris",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/b/be/Paris_Montage_2017.png",
+      "urlPhoto": "https://bitnovosti.com/wp-content/uploads/2018/02/Eyfeleva-bashnya_801x501.jpg",
       "urlMap": "https://i.ibb.co/my8B31M/Paris.jpg",
       "foundationDate": "III век до н.э.",
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -391,7 +391,7 @@
     },
     {
       "cityName": "Budapest",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/d6/BudapestMontage.jpg",
+      "urlPhoto": "https://budapestguide.ru/wp-content/uploads/2018/07/budapest_night4-min.jpg",
       "urlMap": "https://i.ibb.co/LxfP0h9/Budapest.jpg",
       "foundationDate": 1873,
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -400,7 +400,7 @@
     },
     {
       "cityName": "Vienna",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Collage_von_Wien.jpg",
+      "urlPhoto": "https://lh3.googleusercontent.com/IbxkxTXm2M3w3lxfPksgGk3koS21H8jVGXVOarFy-izZTbJEQ6DXrZkE_97VKwVgeYo9Yw9IH9uP70VvnCWMdoY_o_-T_eDV9oSyCvmZzGDsQrBx7oO7bOJsxGwNkgqrXj08PY-4",
       "urlMap": "https://i.ibb.co/2sbfnFX/Vena.jpg",
       "foundationDate": "I век",
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -409,7 +409,7 @@
     },
     {
       "cityName": "Prague",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Prague_Collage_2017.png",
+      "urlPhoto": "https://megaportal.fun/wp-content/uploads/2020/01/20.jpg",
       "urlMap": "https://i.ibb.co/yFzDVFh/Praga.jpg",
       "foundationDate": "VIII век",
       "timezone": "UTC+1:00, летом UTC+2:00",
@@ -418,7 +418,7 @@
     },
     {
       "cityName": "Helsinki",
-      "urlPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/c1/HelsinkiMontage_NoEffects.jpg",
+      "urlPhoto": "https://travel-picture.ru/wp-content/uploads/2018/05/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5-4.jpg",
       "urlMap": "https://i.ibb.co/HXN3RPB/Helsinki.jpg",
       "foundationDate": 1550,
       "timezone": "UTC+2:00, летом UTC+3:00",
