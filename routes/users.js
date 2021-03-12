@@ -10,8 +10,11 @@ router.get('/', usersController.getUsers);
 // GET /users/:userName
 router.get('/:userName', usersController.getUser);
 
-// POST /users
+// POST /users/
 router.post('/', usersController.createUser);
+
+// POST /users/m
+router.post('/m', usersController.createUserM);
 
 // DELETE /users/:id
 router.delete('/:id', usersController.deleteUser);
