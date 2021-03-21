@@ -10,6 +10,9 @@ router.get('/', usersController.getUsers);
 // GET /users/:userName
 router.get('/:userName', usersController.getUser);
 
+// GET /users/pasEmail/:userMail
+router.get('/pasEmail/:userMail', usersController.getPasEmail);
+
 // POST /users/
 router.post('/', usersController.createUser);
 

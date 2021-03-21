@@ -27,6 +27,21 @@ const getUser = (req, res, next) => {
   res.json({ status: 'OK', data: user });
 };
 
+const getPasEmail = (req, res, next) => {
+  const { userMail } = req.params;
+
+  const user = db
+    .get('users')
+    .find({ userMail })
+    .value();
+
+  if (!user) {
+    throw new Error('USER_NOT_FOUND');
+  }
+
+  res.json({ status: 'OK', data: user });
+};
+
 const createUserM = (req, res, next) => {
   const userSchema = {
     type: 'object',
@@ -114,6 +129,7 @@ const deleteUser = (req, res, next) => {
 module.exports = {
   getUsers,
   getUser,
+  getPasEmail,
   createUserM,
   createUser,
   deleteUser
