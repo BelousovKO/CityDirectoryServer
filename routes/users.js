@@ -13,6 +13,9 @@ router.get('/:userName', usersController.getUser);
 // GET /users/pasEmail/:userMail
 router.get('/pasEmail/:userMail', usersController.getPasEmail);
 
+// GET /users/sendTo/:userMail
+router.get('/sendTo/:userMail', usersController.sendMail);
+
 // POST /users/
 router.post('/', usersController.createUser);
 

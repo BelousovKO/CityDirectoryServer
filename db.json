@@ -84,7 +84,8 @@
     {
       "id": "LPVg6fYOa",
       "userName": "Konstantin",
-      "password": "1111"
+      "password": "1111",
+      "userMail": "city-directory@mail.ru"
     },
     {
       "id": "KD7IHWOFK",
@@ -112,6 +113,18 @@
       "userName": "wwww",
       "password": "wwwwww4",
       "userMail": "s@f.d"
+    },
+    {
+      "id": "qISgMuzJu",
+      "userName": "вася",
+      "password": "dfcz11",
+      "userMail": ""
+    },
+    {
+      "id": "P_-1EH8_2",
+      "userName": "вася1",
+      "password": "dfcz111",
+      "userMail": "d@d.d"
     }
   ],
   "city": [
